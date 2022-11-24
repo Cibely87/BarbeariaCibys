@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato - Barbearia Cibys</title>
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="style_contato.css">
+    </head>
+    <body>
+        <header>
+            <div class="menuNavegacao">
+                <h1><img src="./imagens/logo.png" alt="logomarca"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="../Projeto_01/index.html">Home</a></li>
+                        <li><a href="../Projeto_02/index.html">Produtos</a></li>
+                        <li><a href="../Projeto_03/index.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="name">Nome e Sobrenome</label>
+                <input type="text" id="name">
+
+                <label for="email">Email</label>
+                <input type="text" id="email">
+
+                <label for="tel">Telefone</label>
+                <input type="tel" id="tel">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" cols="68" rows="10"></textarea>
+
+                <div>
+                    <p>Como prefere o nosso contato?</p>
+                    <label for="radioEmail">Email</label>
+                    <input type="radio" name="contato" value="Email" id="radioEmail">
+
+                    <label for="radioTelefone">Telefone</label>
+                    <input type="radio" name="contato" value="Telefone" id="radioTeledone">
+
+                    <label for="radioWhatsapp">Whatsapp</label>
+                    <input type="radio" name="contato" value="Whatsapp" id="radioWhatsapp">
+
+                    <label> <input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+
+                    <input type="submit" value="Enviar formulário">
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <img src="./imagens/logo-branco.png" alt="imagem rodapé">
+            <p class="rodape">&copy; Copyright Barbearia Cibys - 2022</p>
+        </footer>
+    </body>
+</html>
