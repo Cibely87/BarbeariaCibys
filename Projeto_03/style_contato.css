@@ -146,3 +146,34 @@ td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+ 
+/*CSS pagina home*/
+.capa {
+    width: 100%;
+}
+
+.tituloCentralizado {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.bloco01 p {
+    margin: 0 0 1em;
+}
+
+.bloco01 strong {
+    font-weight: bold;
+}
+
+.bloco01 em {
+    font-style: italic;
+}
+
+.girls{
+    float: left;
+}
+
+.imagemBeneficios {
+    width: 60%;
+}
