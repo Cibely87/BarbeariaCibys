@@ -13,14 +13,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Git e Github
 
-## 💻 Projeto
-
-A Barbearia Cibys é um projeto de site que mostra Home, produtos, contato, formulário, entre outros.
-
-## 🔭 Licença
-
-Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ by Cibely Pereira :wave:
+Feito com ♥ by `Cibely Pereira` :wave:
